@@ -14,6 +14,7 @@ namespace ConsoleImportDBToCSV.ExtendedClasses
     public  class DAL
     {
         public string ConnectionString = ConfigurationManager.AppSettings["DBConnection"];
+        public string Path = ConfigurationManager.AppSettings["Path"];
         public string FileDelimiter = ";";
         
       
@@ -45,7 +46,7 @@ namespace ConsoleImportDBToCSV.ExtendedClasses
 
         public bool CreateCSV(DataTable dt, string filename)
         {
-            string FileFullPath = ConfigurationManager.AppSettings["Path"] + filename + DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
+            string FileFullPath = Path + filename + DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
             try
             {
 
@@ -107,7 +108,7 @@ namespace ConsoleImportDBToCSV.ExtendedClasses
         private DataTable ReadCSV(string filename)
         {
             DataTable result = new DataTable();
-            string FilePath = ConfigurationManager.AppSettings["Path"] + filename+".csv";
+            string FilePath = Path + filename+".csv";
             if (FilePath == "")
             {
                 return result;
