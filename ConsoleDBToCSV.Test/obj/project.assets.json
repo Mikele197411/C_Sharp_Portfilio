@@ -45,6 +45,15 @@
         "build": {
           "build/net35/NUnit3TestAdapter.props": {}
         }
+      },
+      "ConsoleImportDBToCSV/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ConsoleImportDBToCSV.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleImportDBToCSV.dll": {}
+        }
       }
     }
   },
@@ -156,10 +165,16 @@
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
       ]
+    },
+    "ConsoleImportDBToCSV/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleImportDBToCSV/ConsoleImportDBToCSV.csproj",
+      "msbuildProject": "../ConsoleImportDBToCSV/ConsoleImportDBToCSV.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "ConsoleImportDBToCSV >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1"
@@ -199,7 +214,11 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj": {
+              "projectPath": "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

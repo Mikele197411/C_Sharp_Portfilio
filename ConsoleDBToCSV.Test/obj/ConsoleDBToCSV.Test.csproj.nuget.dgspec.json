@@ -33,7 +33,11 @@
         "frameworks": {
           "net472": {
             "targetAlias": "net472",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj": {
+                "projectPath": "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,6 +65,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj",
+        "projectName": "ConsoleImportDBToCSV",
+        "projectPath": "C:\\Repos\\C_Sharp_Portfilio\\ConsoleImportDBToCSV\\ConsoleImportDBToCSV.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
