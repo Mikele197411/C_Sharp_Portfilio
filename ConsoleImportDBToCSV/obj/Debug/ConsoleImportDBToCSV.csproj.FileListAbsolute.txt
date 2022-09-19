@@ -3,7 +3,6 @@ C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\bin\Debug\ConsoleImportDBToCSV.e
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\bin\Debug\ConsoleImportDBToCSV.pdb
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\bin\Debug\log4net.dll
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\bin\Debug\log4net.xml
-C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.csproj.AssemblyReference.cache
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.csproj.CoreCompileInputs.cache
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.csproj.CopyComplete
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.exe

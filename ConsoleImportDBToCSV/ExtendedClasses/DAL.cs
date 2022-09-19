@@ -229,49 +229,7 @@ namespace ConsoleImportDBToCSV.ExtendedClasses
                 cmd.ExecuteNonQuery();
             _conn.Close();
         }
-        public void BulkInsertDataToSQLTable(string filename)
-        {
-
-            var dt = ReadCSV(filename);
-            foreach (DataRow objRow in dt.Rows)
-            {
-                var code = objRow[3].ToString();
-                objRow[0] = Convert.ToInt32(objRow[0]);
-                if (!string.IsNullOrEmpty(code))
-                {
-                    objRow[3] =   Convert.ToInt32(objRow[3]);
-                }
-                else
-                {
-                    objRow[3] = DBNull.Value;
-                }
-            }
-            var _conn = new SqlConnection(ConnectionString);
-            try
-            {
-                SqlCommand cmd = new SqlCommand("Delete  From InputData_table ", _conn);
-
-
-                _conn.Open();
-                cmd.ExecuteNonQuery();
-                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(_conn))
-                {
-                    bulkCopy.DestinationTableName = "InputData_table";
-                    bulkCopy.ColumnMappings.Add(dt.Columns[0].ColumnName, "CustomerId");
-                    bulkCopy.ColumnMappings.Add(dt.Columns[1].ColumnName, "CustomerName");
-                    bulkCopy.ColumnMappings.Add(dt.Columns[2].ColumnName,"Notes" );
-                    bulkCopy.ColumnMappings.Add(dt.Columns[3].ColumnName,"CodeId");
-                    bulkCopy.WriteToServer(dt);
-                }
-                cmd.CommandText = "UPDATE  InputData_table  SET CodeId= '' WHERE CodeId = NULL";
-                cmd.ExecuteNonQuery();
-            }
-            finally
-            {
-                _conn.Close();
-            }
-
-        }
+       
 
     }
 }
