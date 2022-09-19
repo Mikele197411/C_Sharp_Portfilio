@@ -7,3 +7,4 @@ C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.c
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.csproj.CopyComplete
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.exe
 C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.pdb
+C:\Repos\C_Sharp_Portfilio\ConsoleImportDBToCSV\obj\Debug\ConsoleImportDBToCSV.csproj.AssemblyReference.cache
