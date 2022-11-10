@@ -18,3 +18,6 @@ C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCo
 C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
 C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
 C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\ExtendWindow.g.cs
+C:\Repos\C_Sharp_Portfilio\WpfApp1\obj\Debug\netcoreapp3.1\ExtendWindow.baml
