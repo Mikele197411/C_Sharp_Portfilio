@@ -1,0 +1,16 @@
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\TestApiWinforms.exe.config
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\TestApiWinforms.exe
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\TestApiWinforms.pdb
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\ApiViewModel.dll
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\ApiViewModel.pdb
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\ApiViewModel.dll.config
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.csproj.AssemblyReference.cache
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.MainForm.resources
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.Properties.Resources.resources
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.csproj.GenerateResource.cache
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.csproj.CoreCompileInputs.cache
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.csproj.CopyComplete
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.exe
+C:\Repos\C_Sharp_Portfilio\TestApiWinforms\obj\Debug\TestApiWinforms.pdb

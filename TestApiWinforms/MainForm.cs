@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApiViewModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace TestApiWinforms
 {
     public partial class MainForm : Form
     {
+        ApiViewModel.ApiViewModel model;
         public MainForm()
         {
             InitializeComponent();
+            model = new ApiViewModel.ApiViewModel();
+            dataGridViewLocation.DataSource = model.GetLocations();
         }
     }
 }
