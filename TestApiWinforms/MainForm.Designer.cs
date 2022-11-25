@@ -46,6 +46,8 @@ namespace TestApiWinforms
             // 
             // dataGridViewLocation
             // 
+            this.dataGridViewLocation.AllowUserToAddRows = false;
+            this.dataGridViewLocation.AllowUserToDeleteRows = false;
             this.dataGridViewLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewLocation.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -54,6 +56,7 @@ namespace TestApiWinforms
             this.dataGridViewLocation.Location = new System.Drawing.Point(15, 55);
             this.dataGridViewLocation.MultiSelect = false;
             this.dataGridViewLocation.Name = "dataGridViewLocation";
+            this.dataGridViewLocation.ReadOnly = true;
             this.dataGridViewLocation.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewLocation.Size = new System.Drawing.Size(724, 112);
             this.dataGridViewLocation.TabIndex = 2;
