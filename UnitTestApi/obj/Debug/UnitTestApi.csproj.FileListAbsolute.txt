@@ -17,3 +17,4 @@ C:\Repos\C_Sharp_Portfilio\UnitTestApi\obj\Debug\UnitTestApi.csproj.CoreCompileI
 C:\Repos\C_Sharp_Portfilio\UnitTestApi\obj\Debug\UnitTestApi.csproj.CopyComplete
 C:\Repos\C_Sharp_Portfilio\UnitTestApi\obj\Debug\UnitTestApi.dll
 C:\Repos\C_Sharp_Portfilio\UnitTestApi\obj\Debug\UnitTestApi.pdb
+C:\Repos\C_Sharp_Portfilio\UnitTestApi\bin\Debug\UnitTestApi.dll.config

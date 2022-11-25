@@ -14,6 +14,7 @@ namespace UnitTestApi
     public class TestViewModel
     {
         ApiViewModel.ApiViewModel model = new ApiViewModel.ApiViewModel();
+        
 
         [TestMethod]
         public void TestMethodLocations()

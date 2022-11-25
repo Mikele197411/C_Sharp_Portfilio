@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace ApiViewModel
 {
     public class ApiViewModel
     {
-        public string BaseUrl = @"https://booking-test.dev-dch.com/";
+        public string BaseUrl = ConfigurationManager.AppSettings["BaseUrl"];
 
         public List<Locations> GetLocations()
         {
