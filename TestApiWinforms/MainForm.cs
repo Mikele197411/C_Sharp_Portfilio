@@ -15,6 +15,7 @@ namespace TestApiWinforms
     public partial class MainForm : Form
     {
         ApiViewModel.ApiViewModel model;
+        List<Offers> offers;
         String defaultOfferUid = string.Empty;
         public MainForm()
         {
@@ -33,7 +34,7 @@ namespace TestApiWinforms
             }
             if(idLocation>0)
             {
-                var offers = model.GetOffers(idLocation);
+                 offers = model.GetOffers(idLocation);
                 var offersDataSet = new List<OffersDataSet>();
                 foreach(var item in offers)
                 {
@@ -41,15 +42,14 @@ namespace TestApiWinforms
                     offer.OfferUId = item.OfferUId;
                     offer.Currency = item.Price.Currency;
                     offer.Price = item.Price.Amount;
-                    offer.ModelImage = item.Vehicle.ImageLink;
-                    offer.ModelName = item.Vehicle.ModelName;
-                    offer.VendorImage = item.Vendor.ImageLink;
+                    offer.ModelName = item.Vehicle.ModelName;     
                     offer.VendorName = item.Vendor.Name;
                     offersDataSet.Add(offer);
                 }
                 if(offersDataSet.Count>0)
                 {
                     dataGridViewOffers.DataSource = offersDataSet;
+                   
                 }
             }
             
@@ -71,12 +71,16 @@ namespace TestApiWinforms
                 defaultOfferUid = currentRow.Cells[0].Value.ToString();
             }
 
-            if(currentRow!=null)
+            if(currentRow!=null && !string.IsNullOrEmpty(defaultOfferUid))
             {
-                var modelImage = model.LoadPicture(currentRow.Cells[2].Value.ToString());
-                pictureBoxModel.Image = modelImage;
-                var vendorImage = model.LoadPicture(currentRow.Cells[6].Value.ToString());
-                pictureBoxVendor.Image = vendorImage;
+                var currentOffer = offers.Where(t => t.OfferUId == defaultOfferUid).FirstOrDefault();
+                if (currentOffer != null)
+                {
+                    var modelImage = model.LoadPicture(currentOffer.Vehicle.ImageLink);
+                    pictureBoxModel.Image = modelImage;
+                    var vendorImage = model.LoadPicture(currentOffer.Vendor.ImageLink);
+                    pictureBoxVendor.Image = vendorImage;
+                }
             }
         }
 

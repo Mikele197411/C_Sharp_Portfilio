@@ -10,10 +10,9 @@ namespace ApiViewModel.Models
     {
         public string OfferUId { get; set; }
         public string ModelName { get; set; }
-        public string ModelImage { get; set; }
         public Decimal Price { get; set; }
         public string Currency { get; set; }
         public string VendorName { get; set; }
-        public string VendorImage { get; set; }
+       
     }
 }

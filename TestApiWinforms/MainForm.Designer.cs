@@ -40,6 +40,8 @@ namespace TestApiWinforms
             this.textBoxSurname = new System.Windows.Forms.TextBox();
             this.labelSurname = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
+            this.labelCarImage = new System.Windows.Forms.Label();
+            this.labelVendor = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLocation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOffers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxModel)).BeginInit();
@@ -128,14 +130,14 @@ namespace TestApiWinforms
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(64, 596);
+            this.textBoxName.Location = new System.Drawing.Point(92, 600);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(179, 20);
             this.textBoxName.TabIndex = 8;
             // 
             // textBoxSurname
             // 
-            this.textBoxSurname.Location = new System.Drawing.Point(307, 597);
+            this.textBoxSurname.Location = new System.Drawing.Point(353, 599);
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(227, 20);
             this.textBoxSurname.TabIndex = 9;
@@ -144,7 +146,7 @@ namespace TestApiWinforms
             // 
             this.labelSurname.AutoSize = true;
             this.labelSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSurname.Location = new System.Drawing.Point(241, 599);
+            this.labelSurname.Location = new System.Drawing.Point(277, 602);
             this.labelSurname.Name = "labelSurname";
             this.labelSurname.Size = new System.Drawing.Size(60, 13);
             this.labelSurname.TabIndex = 10;
@@ -154,17 +156,39 @@ namespace TestApiWinforms
             // 
             this.labelName.AutoSize = true;
             this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.Location = new System.Drawing.Point(15, 599);
+            this.labelName.Location = new System.Drawing.Point(35, 602);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(43, 13);
             this.labelName.TabIndex = 11;
             this.labelName.Text = "Name:";
+            // 
+            // labelCarImage
+            // 
+            this.labelCarImage.AutoSize = true;
+            this.labelCarImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCarImage.Location = new System.Drawing.Point(15, 355);
+            this.labelCarImage.Name = "labelCarImage";
+            this.labelCarImage.Size = new System.Drawing.Size(30, 13);
+            this.labelCarImage.TabIndex = 12;
+            this.labelCarImage.Text = "Car:";
+            // 
+            // labelVendor
+            // 
+            this.labelVendor.AutoSize = true;
+            this.labelVendor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVendor.Location = new System.Drawing.Point(394, 355);
+            this.labelVendor.Name = "labelVendor";
+            this.labelVendor.Size = new System.Drawing.Size(51, 13);
+            this.labelVendor.TabIndex = 13;
+            this.labelVendor.Text = "Vendor:";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 647);
+            this.Controls.Add(this.labelVendor);
+            this.Controls.Add(this.labelCarImage);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.labelSurname);
             this.Controls.Add(this.textBoxSurname);
@@ -199,5 +223,7 @@ namespace TestApiWinforms
         private System.Windows.Forms.TextBox textBoxSurname;
         private System.Windows.Forms.Label labelSurname;
         private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labelCarImage;
+        private System.Windows.Forms.Label labelVendor;
     }
 }
