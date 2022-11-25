@@ -72,7 +72,7 @@ namespace ApiViewModel
             {
                 var responseString = streamReader.ReadToEnd();
                 var token = JsonConvert.DeserializeObject<JToken>(responseString)["confirmationNumber"].ToString();
-                result = token; //contains 5
+                result = token; 
             }
 
 
